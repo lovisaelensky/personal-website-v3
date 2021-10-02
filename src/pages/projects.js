@@ -1,10 +1,10 @@
-import React from "react"
-import Layout from "../components/Layout"
-import ProjectCard from "../components/ProjectCard"
-import CovidHouse from '../images/covid-house.png'
-import MorningStar from '../images/morning-star.png'
-import Settr from '../images/settr.png'
-import styled from 'styled-components'
+import React from 'react';
+import Layout from '../components/Layout';
+import ProjectCard from '../components/ProjectCard';
+import CovidHouse from '../images/covid-house.png';
+import MorningStar from '../images/morning-star.png';
+import Settr from '../images/settr.png';
+import styled from 'styled-components';
 
 const GridContainer = styled.section`
   display: grid;
@@ -18,37 +18,43 @@ export default function Projects() {
   return (
     <Layout>
       <GridContainer>
-        <ProjectCard 
-        title='Card title'
-        imageUrl={CovidHouse}
-        body='Hejsvejjs det här är bodyn'
+        <ProjectCard
+          title="Card title"
+          imageUrl={CovidHouse}
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          url="https://quillbot.com/grammar-check"
         />
-        <ProjectCard 
-        title='Card title'
-        imageUrl={MorningStar}
-        body='Hejsvejjs det här är bodyn'
+        <ProjectCard
+          title="Card title"
+          imageUrl={MorningStar}
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          url="https://quillbot.com/grammar-check"
         />
-        <ProjectCard 
-        title='Card title'
-        imageUrl={Settr}
-        body='Hejsvejjs det här är bodyn'
+        <ProjectCard
+          title="Card title"
+          imageUrl={Settr}
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          url="https://quillbot.com/grammar-check"
         />
-        <ProjectCard 
-        title='Card title'
-        imageUrl={CovidHouse}
-        body='Hejsvejjs det här är bodyn'
+        <ProjectCard
+          title="Card title"
+          imageUrl={CovidHouse}
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          url="https://quillbot.com/grammar-check"
         />
-        <ProjectCard 
-        title='Card title'
-        imageUrl={MorningStar}
-        body='Hejsvejjs det här är bodyn'
+        <ProjectCard
+          title="Card title"
+          imageUrl={MorningStar}
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          url="https://quillbot.com/grammar-check"
         />
-        <ProjectCard 
-        title='Card title'
-        imageUrl={Settr}
-        body='Hejsvejjs det här är bodyn'
+        <ProjectCard
+          title="Card title"
+          imageUrl={Settr}
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          url="https://quillbot.com/grammar-check"
         />
-        </GridContainer>
+      </GridContainer>
     </Layout>
-  )
+  );
 }
