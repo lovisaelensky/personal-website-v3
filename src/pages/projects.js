@@ -51,7 +51,7 @@ export default function Projects() {
         <ProjectCard
           title="Card title"
           imageUrl={Settr}
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           url="https://quillbot.com/grammar-check"
         />
       </GridContainer>
